@@ -9,3 +9,25 @@ p {
 h1 {
     font-weight: bold;
 }
+
+.container {
+    margin: 100px 0 0 220px;
+    width: 70%;
+    height: 450px; /* Fixed: Added missing semicolon */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Fixed: Added missing semicolon */
+    transition: all ease-in-out 0.5s; /* Fixed: Corrected "transitio" to "transition" */
+}
+
+.container img:hover {
+    width: 25%;
+}
