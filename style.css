@@ -14,7 +14,7 @@ h1 {
 .container {
     margin: 100px 0 0 220px;
     width: 75%;
-    height: 455px; /* Fixed: Added missing semicolon */
+    height: 455px; 
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -26,7 +26,7 @@ h1 {
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid hsl(0, 0%, 100%); /* Fixed: Added missing semicolon */
-    transition: all ease-in-out 0.5s; /* Fixed: Corrected "transitio" to "transition" */
+    transition: all ease-in-out 0.5s; /* Fixed: Corrected "" to "transition" */
 }
 
 .container img:hover {
