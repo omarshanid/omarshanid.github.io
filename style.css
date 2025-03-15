@@ -1,9 +1,10 @@
 body {
-    background: rgb(158, 25, 170);
+    background: hsl(225, 79%, 32%);
+    
 }
 
 p {
-    color: hsl(0, 0%, 100%);
+    color: hwb(0 0% 100%);
 }
 
 h1 {
@@ -12,8 +13,8 @@ h1 {
 
 .container {
     margin: 100px 0 0 220px;
-    width: 70%;
-    height: 450px; /* Fixed: Added missing semicolon */
+    width: 75%;
+    height: 455px; /* Fixed: Added missing semicolon */
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -24,7 +25,7 @@ h1 {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.6); /* Fixed: Added missing semicolon */
+    border: 2px solid hsl(0, 0%, 100%); /* Fixed: Added missing semicolon */
     transition: all ease-in-out 0.5s; /* Fixed: Corrected "transitio" to "transition" */
 }
 
