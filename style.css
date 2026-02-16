@@ -1,6 +1,14 @@
+* {  
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: hwb(0 0% 100%);
-    
+    font-family:'Poppins', sans-serif;
 }
 
 p {
@@ -9,7 +17,29 @@ p {
 
 h1 {
     font-weight: bold;
+    color: hwb(0 100% 0%);
 }
+h2 {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+h3 {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+h4 {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+h5 {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+h6 {
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+
 
 .container {
     margin: 100px 0 0 220px;
