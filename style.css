@@ -1,10 +1,10 @@
 body {
-    background: hwb(225 8% 32%);
+    background: hwb(0 0% 100%);
     
 }
 
 p {
-    color: hwb(0 0% 100%);
+    color: hwb(0 100% 0%);
 }
 
 h1 {
