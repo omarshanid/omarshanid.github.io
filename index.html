@@ -5,8 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Omar's Website</title>
+        <title>Omar Shanid</title>
         <link rel="stylesheet" href="style.css"/>
+       
     </head>
     <body>
         <h1>Wsg</h1>
@@ -30,6 +31,46 @@
 
 
         </div>
+
+         <!--idk wth anyhing below this is !-->
+        <div id="loveText">I LOVE YOU</div>
+        <audio id="blop" src="your-sound.mp3"></audio>
+    </script>
+
+
+
+    const crtLoveTL = () => {
+        const move = 1000;
+        const boom = 200;
+        const easing = "sin.inOut";
+        const easingBoom = "sin.in";
+        const easingOut = "sin.out";
+        const opts = { duration: move, easing, opacity: 1 };
+        const delta = 150;
+      
+        return new mojs.Timeline().add([
+          new mojs.Tween({
+            duration: move,
+            onComplete: () => {
+              [el.l, el.o, el.v, el.e].forEach((el) =>
+                (el.style.opacity = 0)
+              );
+              el.blop.play();
+            },
+          }),
+        ]);
+      };
+      
+
+
+
+
+
+
+        </script>
+
+
+        
 
 
 

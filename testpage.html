@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Animation</title>
+  <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+  <style>
+    #loveText {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loveText">I LOVE YOU</div>
+  <audio id="blop" src="your-sound.mp3"></audio>
+
+  <script>
+    const el = {
+      l: document.getElementById("loveText"),
+      o: document.getElementById("loveText"),
+      v: document.getElementById("loveText"),
+      e: document.getElementById("loveText"),
+      blop: document.getElementById("blop")
+    };
+
+    const crtLoveTL = () => {
+      const move = 1000;
+
+      return new mojs.Timeline().add([
+        new mojs.Tween({
+          duration: move,
+          onComplete: () => {
+            [el.l, el.o, el.v, el.e].forEach((e) => (e.style.opacity = 0));
+            el.blop.play();
+          }
+        })
+      ]);
+    };
+
+    crtLoveTL().play();
+  </script>
+
+</body>
+</html>
