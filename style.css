@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {  
 margin: 0;
 padding: 0;
@@ -12,6 +13,11 @@ html {
     --text-color : #eeeff1;
     --link-color: #4a76ee;
     --background-color: #1a1c20;
+=======
+body {
+    background: hwb(0 0% 100%);
+    
+>>>>>>> parent of 98a957c (set up for new site)
 =======
 body {
     background: hwb(0 0% 100%);
@@ -52,6 +58,7 @@ h1 {
 
 .container img:hover {
     width: 25%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 a {
@@ -220,6 +227,8 @@ nav .right a span{
     .skills-section .cells .cell span{
        font-size: 16px ;
     }
+=======
+>>>>>>> parent of 98a957c (set up for new site)
 =======
 >>>>>>> parent of 98a957c (set up for new site)
 }
